@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/youthfulporpoise329.github.io/static/css/main.796f7790.css",
+    "main.js": "/youthfulporpoise329.github.io/static/js/main.1ea728b0.js",
+    "index.html": "/youthfulporpoise329.github.io/index.html",
+    "main.796f7790.css.map": "/youthfulporpoise329.github.io/static/css/main.796f7790.css.map",
+    "main.1ea728b0.js.map": "/youthfulporpoise329.github.io/static/js/main.1ea728b0.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.796f7790.css",
+    "static/js/main.1ea728b0.js"
+  ]
+}
