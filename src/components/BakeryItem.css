@@ -1,0 +1,62 @@
+/* id is #, class is . */
+#bakery-item {
+    display: flex; 
+    justify-content: space-between; 
+}
+
+
+
+.card {
+    /* Add shadows to create the "card" effect */
+    margin: 2%; 
+    /* box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2); */
+    /* transition: 0.3s; */
+    width: 45%; 
+    border-radius: 7px; 
+    background-color: #F4F4F2;
+    max-height: 289px; 
+  }
+  
+  /* On mouse-over, add a deeper shadow */
+  /* .card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  } */
+  
+  /* Add some padding inside the card container */
+  .container {
+    padding: 2px 16px 10px 16px;
+    text-align: left; 
+    display: flex; 
+    flex-direction: column; 
+    justify-content: space-between;
+  }
+
+  .card img{
+      width: 50%; 
+      border-radius: 7px 0px 0px 7px; 
+  }
+
+  .container span {
+      font-style: italic;
+  }
+
+  .atc-button {
+    background-color: #495464;
+    border: none;
+    color: white; 
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-family: 'Raleway', sans-serif; 
+    font-size: 16px;
+    border-radius: 5px; 
+  }
+
+  .atc-button:hover {
+    cursor: pointer; 
+  }
+
+  .item-name {
+    font-size: 18px;
+  }

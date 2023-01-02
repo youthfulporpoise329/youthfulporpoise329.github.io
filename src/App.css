@@ -1,0 +1,162 @@
+* {
+  margin: 0; 
+  padding: 0; 
+}
+.App {
+  text-align: center;
+  font-family: 'Roboto', sans-serif; 
+  font-weight: 300; 
+  /* background-color: #F7E4E3; */
+  background-color: #F4F4F2; 
+  margin-bottom: 0;
+}
+
+.raleway {
+  font-family: 'Roboto', sans-serif; 
+  font-weight: normal; 
+}
+
+footer {
+  height: 2vh; 
+}
+
+main {
+  min-height: 96vh; 
+}
+
+.App-header {
+  background-color: #282c34;
+  /* min-height: 100vh; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+li{
+  list-style: none;
+}
+
+main {
+  display: flex; 
+  flex-direction: row;
+  padding: 2%;
+}
+
+.content {
+  width: 70%; 
+  /* max-height: 700px; */
+  overflow: scroll; 
+  display: flex; 
+  flex-direction: row;
+  flex-wrap: wrap; 
+  align-items: start;
+  border-radius: 15px;
+  /* background-color: #C5B9CD; */
+  background-color: #BBBFCA;
+}
+
+.sidebar {
+  text-align: left;
+  width: 15%; 
+  margin-right: 10px; 
+}
+
+.sidebar-content {
+  /* background-color: #C5B9CD; */
+  /* background-color: #ABB1CF; */
+  outline: 3px solid #BBBFCA;
+  border-radius: 15px;
+  padding: 10px; 
+}
+
+.sidebar-content ul{
+  padding: 0px; 
+}
+
+.cart {
+  width: 20%;
+  margin-left: 10px;
+  
+}
+
+.cart-content {
+  /* background-color: #C5B9CD; */
+  /* background-color: #ABB1CF;  */
+  outline: 3px solid #BBBFCA;
+  border-radius: 15px;
+  padding-top: 2px; 
+  padding-bottom: 2px; 
+  padding-right: 2px; 
+  padding-left: 30px;
+  text-align: left; 
+}
+
+.cart-item {
+  display: flex; 
+  flex-direction: row; 
+  text-align: left;
+  justify-content: space-between; 
+}
+
+/* cart p {
+  float: left; 
+}
+
+cart button {
+  float: left; 
+} */
+
+.cart-button{
+  width: 50px;
+  height: 50px;
+  font-size: 2rem;
+  background-color: rgba(0,0,0,0);
+  border: none; 
+  /* background-image: url(process.env.PUBLIC_URL + '/image.png'); 
+  background-position: center;
+  background-size: cover; */
+}
+
+.cart-button img {
+  width: 10%; 
+}
+
+.cart-header .filter-header {
+  font-size: 20px; 
+}
+
+h1 {
+  font-size: 50px;
+  margin: 2%; 
+  text-align: left; 
+}
+
+footer { 
+  padding-bottom: 24px;
+}
+
+.total-container {
+  margin-bottom: 15px; 
+}
+
+.total {
+  font-style: italic;
+}
+
+
